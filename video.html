@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>efc Estudio Fotogr&aacute;fico Cahuantzi</title>
+	<meta charset="utf-8">
+  <meta name="Description" content="Toma de videos de eventos sociales videoedición fotoclips videoclips publicación de videos">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<style type="text/css">
+</style>
+</head>
+<body background="img/fondoazul.jpg">
+<div id="titulo">  
+  <div align="center"><img src="img/efc_encabezado.png" alt="efc_encabezado" name="logo" width="650" height="70" id="logo"></div>
+</div>
+<header>
+		<div class="contenedor" id="uno">
+			<a href="index.html">
+			<img class="icon" src="img/icon1.png">
+		    <p class="texto">Inicio</p>
+			</a>  </div>
+		<div class="contenedor" id="dos">
+			<a href="fotografia.html">
+			<img class="icon" src="img/icon2.png">
+			<p class="texto">Fotografía</p>
+			</a>		</div>
+		<div class="contenedor" id="tres">
+			<a href="video.html">
+			<img class="icon" src="img/icon3.png">
+			<p class="texto">Video</p>
+			</a>		</div>			
+		<div class="contenedor" id="ocho">
+			<a href="ubicacion.html">
+			<img class="icon" src="img/icon8.png">
+			<p class="texto">Ubicación</p>
+			</a>     </div>		
+		<div class="contenedor" id="nueve">
+			<a href="contacto.html">
+			<img class="icon" src="img/icon9.png">
+			<p class="texto">Contacto</p>
+			</a>      </div>		
+</header>
+<div align="center">
+<video id="videoclip" controls poster="img/dustefc.sameformat.png" title="Video" preload autoplay width="480" height="320">
+  <source id="mp1video" src="videos/dustefc.mp4" type="video/mp4"  />
+<!--  <source id="og1video" src="videos/dustefc.ogv" type="video/ogg"  />
+  <source id="wb1video" src="videos/dustefc.webm" type="video/webm"  /> -->
+ </video>
+</div>
+ <div align="center" width="800">
+   <table border="1" cellspacing="1" summary="fotoclips y videoclips de clientes">
+     <caption>
+       <span class="Estilo17">Videoclips
+         y/o      fotoclips
+         seleccione un video con un click para reproducirlo </span>
+     </caption>
+     <tr>
+       <td>Meriendas:</td>
+       <td>Bodas:</td>
+       <td>Despedidas:</td>
+       <td>Bautizos:</td>
+       <td>XV años</td>
+       <td>Otros videos</td>
+     </tr>
+     <tr>
+       <td><a href="#" id="David">Merienda de David vc</a></td>
+       <td><a href="#" id="AzaliayAngelfc">Azalia y Angel fc</a></td>
+       <td><a href="#" id="Karlafc">Karla fc</a></td>
+       <td><a href="#" id="BautizoDamianArturo">Damián Arturo fc</a></td>
+       <td><a href="#" id="XVdanielafc">Daniela fc</a></td>
+       <td><a href="#" id="Chocolat">Graciosa actitud  vc</a></td>
+     </tr>
+     <tr>
+       <td><a href="#" id="MHillarylfc">Merienda Hillary fc</a></td>
+       <td><a href="#" id="Bcarlosybrendavc">Nallely y Fernando vc</a></td>
+       <td><a href="#" id="Dkarlalmc">Karla mc</a></td>
+       <td>&nbsp;</td>
+       <td><a href="#" id="XVDanielavc">Daniela vc</a></td>
+       <td><a href="#" id="unafotoBS">Importancia de bloquador solar</a></td>
+     </tr>
+     <tr>
+       <td>&nbsp;</td>
+       <td><a href="#" id="Bcarlosybrendamc">Nallely y Fernandoa mc</a></td>
+       <td>&nbsp;</td>
+       <td>&nbsp;</td>
+       <td><a href="#" id="XVDiana101211">Diana  fc&amp;vc</a></td>
+       <td><a href="#" id="LasCrepas">Las Crepas vc</a></td>
+     </tr>
+     <tr>
+       <td>&nbsp;</td>
+       <td>&nbsp;</td>
+       <td>&nbsp;</td>
+       <td>&nbsp;</td>
+       <td><a href="#" id="XVMarisol">Marisol vc</a></td>
+       <td>&nbsp;</td>
+     </tr>
+     <tr>
+       <td>&nbsp;</td>
+       <td>&nbsp;</td>
+       <td>&nbsp;</td>
+       <td>&nbsp;</td>
+       <td>&nbsp;</td>
+       <td>&nbsp;</td>
+     </tr>
+   </table>
+ </div>
+  <p align="center">  <span class="Estilo17">Miniclips de clientes disponibles nomenclatura:(fc=fotoclip, vc=videoclip, mc=menuclip)</span><br>
+    </p>
+<script type="text/javascript">
+var videocontainer = document.getElementById('videoclip');
+var videosource = document.getElementById('mp1video');
+// var videosource = document.getElementById('og1video');
+// var videosource = document.getElementById('wb1video');
+var newmp1 = 'videos/Bazaliayangelfc.mp4';
+// var newog1 = 'videos/Bazaliayangelfc.ogv';
+// var newwb1 = 'videos/Bazaliayangelfc.webm'; 
+var newmp2 = 'videos/Mdavid_cumple3.mp4';
+// var newog2 = 'videos/Mdavid_cumple3.ogv';
+// var newwb2 = 'videos/Mdavid_cumple3.webm'; 
+var newmp3 = 'videos/Dkarlalfc.mp4';
+// var newog3 = 'videos/Dkarlalfc.ogv';
+// var newwb3 = 'videos/Dkarlalfc.webm';
+var newmp4 = 'videos/BautizoDamianArturo.mp4';
+// var newog4 = 'videos/BautizoDamianArturo.webm';
+// var newwb4 = 'videos/BautizoDamianArturo.webm';
+var newmp5 = 'videos/XVdanielafc.mp4';
+// var newog5 = 'videos/XVdanielafc.ogv';
+// var newwb5 = 'videos/XVdanielafc.webm';
+var newmp6 = 'videos/Chocolat.mp4';
+// var newog6 = 'videos/Chocolat.ogv';
+// var newwb6 = 'videos/Chocolat.webm';
+var newmp7 = 'videos/MHillarylfc.mp4';
+// var newog7 = 'videos/XVHillarylfc.ogv';
+// var newwb7 = 'videos/XVHillarylfc.webm';
+var newmp8 = 'videos/Bcarlosbrendafc.mp4';
+// var newog8 = 'videos/Bcarlos&brendavc.ogv';
+// var newwb8 = 'videos/Bcarlos&brendavc.webm';
+var newmp9 = 'videos/Dkarlalmc.mp4';
+// var newog9 = 'videos/Dkarlalmc.ogv';
+// var newwb9 = 'videos/Dkarlalmc.webm';
+var newmp10 = 'videos/XVDanielavc.mp4';
+// var newog10 = 'videos/XVDanielavc.ogv';
+// var newwb10 = 'videos/XVDanielavc.webm';
+var newmp11 = 'videos/unafotoBS.mp4';
+// var newog11 = 'videos/unafotoBS.ogv';
+// var newwb11 = 'videos/unafotoBS.webm';
+var newmp12 = 'videos/Bcarlosbrendamc.mp4';
+// var newog12 = 'videos/Bcarlos&brendamc.ogv';
+// var newwb12 = 'videos/Bcarlos&brendamc.webm';
+var newmp13 = 'videos/XVDiana101211.mp4';
+// var newog13 = 'videos/XVDiana101211.mp4';
+// var newwb13 = 'videos/XVDiana101211.mp4';
+var newmp14 = 'videos/XVMarisol.mp4';
+// var newog14 = 'videos/XVMarisol.ogv';
+// var newwb14 = 'videos/XVMarisol.webm';
+var newmp15 = 'videos/Crepas.mp4';
+// var newog14 = 'videos/XVMarisol.ogv';
+// var newwb14 = 'videos/XVMarisol.webm';	
+var newposbaa = 'img/Bazaliayangelfc.png';
+var newposbda = 'img/BautizoDamianArturo.png';
+var newposmd3 = 'img/Mdavid_cumple3.png';
+var newposkfc = 'img/Dkarlalfc.webmsd.png';
+var newposdfc = 'img/XVdanielafc.png';
+var newposcho = 'img/Chocolat.png';
+var newposhfc = 'img/MHillarylfc.webmsd.png';
+var newposcbv = 'img/Bcarlos&brendavc.png';
+var newposkmc = 'img/Dkarlalmc.webmsd.png';
+var newposdvc = 'img/XVDanielavc.png';
+var newposbsv = 'img/unafotoBS.webmsd.png';
+var newposcbm = 'img/Bcarlos&brendamc.png';
+var newposd10 = 'img/XVDiana101211.webmsd.png'; 
+var newposXVm = 'img/XVMarisol.png';
+ 
+var videobutton = document.getElementById("AzaliayAngelfc");
+ videobutton.addEventListener("click", function(event) {
+    videocontainer.pause();
+    videosource.setAttribute('src', newmp1);
+// 	videosource.setAttribute('src', newog1);
+// 	videosource.setAttribute('src', newwb1);
+    videocontainer.load();
+    videocontainer.setAttribute('poster', newposbaa); //Changes video poster image
+    videocontainer.play();
+}, false);
+var videobutton = document.getElementById("David");
+ videobutton.addEventListener("click", function(event) {
+    videocontainer.pause();
+    videosource.setAttribute('src', newmp2);
+// 	videosource.setAttribute('src', newog2);
+// 	videosource.setAttribute('src', newwb2);
+	videocontainer.load();
+    videocontainer.setAttribute('poster', newposmd3); //Changes video poster image
+    videocontainer.play();
+}, false);
+var videobutton = document.getElementById("Karlafc");
+ videobutton.addEventListener("click", function(event) {
+    videocontainer.pause();
+    videosource.setAttribute('src', newmp3);
+//     videosource.setAttribute('src', newog3);
+//     videosource.setAttribute('src', newwb3);
+    videocontainer.load();
+    videocontainer.setAttribute('poster', newposkfc); //Changes video poster image
+    videocontainer.play();
+}, false); 
+var videobutton = document.getElementById("BautizoDamianArturo");
+ videobutton.addEventListener("click", function(event) {
+    videocontainer.pause();
+    videosource.setAttribute('src', newmp4);
+//     videosource.setAttribute('src', newog4);
+//     videosource.setAttribute('src', newwb4);
+    videocontainer.load();
+    videocontainer.setAttribute('poster', newposbda); //Changes video poster image
+    videocontainer.play();
+}, false); 
+var videobutton = document.getElementById("XVdanielafc");
+ videobutton.addEventListener("click", function(event) {
+    videocontainer.pause();
+    videosource.setAttribute('src', newmp5);
+//     videosource.setAttribute('src', newog5);
+//     videosource.setAttribute('src', newwb5);
+    videocontainer.load();
+    videocontainer.setAttribute('poster', newposdfc); //Changes video poster image
+    videocontainer.play();
+}, false); 
+var videobutton = document.getElementById("Chocolat");
+ videobutton.addEventListener("click", function(event) {
+    videocontainer.pause();
+    videosource.setAttribute('src', newmp6);
+//     videosource.setAttribute('src', newog6);
+//     videosource.setAttribute('src', newwb6);
+    videocontainer.load();
+    videocontainer.setAttribute('poster', newposcho); //Changes video poster image
+    videocontainer.play();
+}, false); 
+var videobutton = document.getElementById("MHillarylfc");
+ videobutton.addEventListener("click", function(event) {
+    videocontainer.pause();
+    videosource.setAttribute('src', newmp7);
+//     videosource.setAttribute('src', newog7);
+//     videosource.setAttribute('src', newwb7);
+    videocontainer.load();
+    videocontainer.setAttribute('poster', newposhfc); //Changes video poster image
+    videocontainer.play();
+}, false); 
+var videobutton = document.getElementById("Bcarlosybrendavc");
+ videobutton.addEventListener("click", function(event) {
+    videocontainer.pause();
+    videosource.setAttribute('src', newmp8);
+ //    videosource.setAttribute('src', newog8);
+ //    videosource.setAttribute('src', newwb8);
+    videocontainer.load();
+    videocontainer.setAttribute('poster', newposcbv); //Changes video poster image
+    videocontainer.play();
+}, false); 
+var videobutton = document.getElementById("Dkarlalmc");
+ videobutton.addEventListener("click", function(event) {
+    videocontainer.pause();
+    videosource.setAttribute('src', newmp9);
+//     videosource.setAttribute('src', newog9);
+//     videosource.setAttribute('src', newwb9);
+    videocontainer.load();
+    videocontainer.setAttribute('poster', newposkmc); //Changes video poster image
+    videocontainer.play();
+}, false); 
+var videobutton = document.getElementById("XVDanielavc");
+ videobutton.addEventListener("click", function(event) {
+    videocontainer.pause();
+    videosource.setAttribute('src', newmp10);
+//     videosource.setAttribute('src', newog10);
+ //    videosource.setAttribute('src', newwb10);
+    videocontainer.load();
+    videocontainer.setAttribute('poster', newposdvc); //Changes video poster image
+    videocontainer.play();
+}, false); 
+var videobutton = document.getElementById("unafotoBS");
+ videobutton.addEventListener("click", function(event) {
+    videocontainer.pause();
+    videosource.setAttribute('src', newmp11);
+// 	videosource.setAttribute('src', newog11);
+// 	videosource.setAttribute('src', newwb11);
+    videocontainer.load();
+    videocontainer.setAttribute('poster', newposbsv); //Changes video poster image
+    videocontainer.play();
+}, false); 
+var videobutton = document.getElementById("Bcarlosybrendamc");
+ videobutton.addEventListener("click", function(event) {
+    videocontainer.pause();
+    videosource.setAttribute('src', newmp12);
+//     videosource.setAttribute('src', newog12);
+//     videosource.setAttribute('src', newwb12);
+    videocontainer.load();
+    videocontainer.setAttribute('poster', newposcbm); //Changes video poster image
+    videocontainer.play();
+}, false); 
+var videobutton = document.getElementById("XVDiana101211");
+ videobutton.addEventListener("click", function(event) {
+    videocontainer.pause();
+    videosource.setAttribute('src', newmp13);
+ //    videosource.setAttribute('src', newog13);
+//     videosource.setAttribute('src', newwb13);
+    videocontainer.load();
+    videocontainer.setAttribute('poster', newposd10); //Changes video poster image
+    videocontainer.play();
+}, false); 
+var videobutton = document.getElementById("XVMarisol");
+ videobutton.addEventListener("click", function(event) {
+    videocontainer.pause();
+    videosource.setAttribute('src', newmp14);
+//     videosource.setAttribute('src', newog14);
+ //    videosource.setAttribute('src', newwb14);
+    videocontainer.load();
+    videocontainer.setAttribute('poster', newposXVm); //Changes video poster image
+    videocontainer.play();
+}, false); 
+var videobutton = document.getElementById("LasCrepas");
+ videobutton.addEventListener("click", function(event) {
+    videocontainer.pause();
+    videosource.setAttribute('src', newmp15);
+//     videosource.setAttribute('src', newog15);
+ //    videosource.setAttribute('src', newwb15);
+    videocontainer.load();
+    videocontainer.setAttribute('poster', newposXVm); //Changes video poster image
+    videocontainer.play();
+}, false);
+</script>
+<div class="contenid" >
+<div class="parent">
+<div class="element">
+  <div align="center">
+  <p align="center"><span class="Estilo13 Estilo1"><strong>Bienvenido  al sitio</strong></span><strong> <span class="Estilo11"><span class="Estilo28">e</span><span class="Estilo24">f</span><span class="Estilo26">c</span></span></strong>:<br></p>
+  </div>
+
+  <p align="left" class="Estilo3">Tomamos videos de sus eventos sociales dentro del área metropolitana de Monterrey de celebracionestales como, aniversarios, graduaciones, bautizos, confirmaciones, primeras comuniones, quinceaños, bodas etc.</p>
+  <p >&nbsp; </p>
+  <p align="left" class="Estilo3">Disfrute usted y los suyos de la FIESTA, deje que nosotros captemos los mejores, clásicos e inolvidables momentos para que aumenten el tesoro de sus recuerdos.</p>
+  <p align="left" class="Estilo13">&nbsp; </p>
+  <p align="left" class="Estilo14">Nuestro formato para bodas se agrega un fotoclip y/o videoclip al inicio del video se agregan efectos en cada transición de capítulos y se incluye menu de selección para reproducir en DVD.</p>
+  <p align="left"><br>
+    <span class="Estilo15">Entrega: se entrega tres DVD's uno de respaldo y dos de uso, se recomienda el cuidado de los DVD's pero en caso de pérdida de los originales será necesario rehacer con el respaldo copias para restaurar la pérdida. <br>
+    </span></p>
+  <p align="left"><strong>Esperamos su visita</strong>.</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p align="right">Véanos tambien en: <a href="https://www.facebook.com/EstudioFotograficoCahuantzi"><img src="img/facebook.jpg" alt="fb" width="28" height="28" longdesc="facebook"><span class="Estilo2"> e</span><span class="Estilo5">f</span><span class="Estilo8">c </span> <span style="color: #990000">Estudio</span> <span style="color: #F90606">Fotográfico</span> <span style="color: #0000FF">Cahuantzi</span></a></p>
+</div></div></div>
+    <div align="center"><img src="img/En construccion.gif" alt="Trabajamos para usted">
+  <p>¡Trabajando para USTED!</p></div>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
