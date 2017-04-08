@@ -1,0 +1,221 @@
+* {
+	font-family: helvetica, arial, sans-serif;
+}
+div#titulo{
+	width:100%;
+	background: url(../img/fondoazul.jpg);
+	margin-left:10px;
+	}
+header {
+	margin: auto;
+	width: 600px;
+	height: 125px;
+	border-bottom: 3px solid #A39676;
+
+	/*display: table; */
+}
+body {
+	/* [disabled]background: none; */
+}
+
+div.contenedor{
+	margin-left: auto;
+	width: 20%;
+	height: 80px;
+	float: left;
+	-webkit-transition: height .4s;
+	-moz-transition: height .4s;
+	-ms-transition: height .4s;
+}
+div#uno{
+	background-color: #990000;
+}
+div#dos{
+	background-color: #992200;
+}
+div#tres{
+	background-color: #FF0000;
+}
+div#ocho{
+	background-color: #FF3300;
+}
+div#nueve{
+	background-color: #0000FF;
+}
+img.icon{
+	display: block;
+	margin-top:auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	background-color: rgba(255,255,255,.15);
+	width: 30px;
+	padding-top: 1px;
+	padding-right: 1px;
+	padding-left: 1px;
+	padding-bottom: 1px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 0px 100px rgba(255,255,255,0);
+	-moz-box-shadow: 0px 0px 0px 15px rgba(255,255,255,0);
+	-ms-box-shadow: 0px 0px 0px 15px rgba(255,255,255,0);
+	-webkit-transition: box-shadow .9s;
+	-moz-transition: box-shadow .9s;
+	-ms-transition: box-shadow .9s;
+	box-shadow: 0px 0px 0px 100px rgba(255,255,255,0);
+}
+p.texto{
+	font-size: 1.5em;
+	color:#000000;
+	text-align: center;
+	padding-top:0px;
+	opacity: .6;
+	-webkit-transition: padding-top .9s;
+	-moz-transition: padding-top .9s;
+	-ms-transition: padding-top .9s;
+}
+div.contenedor:hover{
+	height:100px;
+}
+div.contenedor:hover p.texto{
+	padding-top: 5px;
+	opacity: 1;
+	color: #FFFFFF;
+	font-weight: bolder;
+	text-decoration: overline;
+}
+div.contenedor:hover img.icon {
+-webkit-box-shadow: 0px 0px 0px 0px rgba(255,255,255,.6);
+-moz-box-shadow: 0px 0px 0px 0px rgba(255,255,255,.6);
+-ms-box-shadow: 0px 0px 0px 0px rgba(255,255,255,.6);
+}
+	p {
+	margin: 1em;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color: #FF0000;
+}  
+.contenid{
+    margin: auto;
+    width:600px;
+    background: url(../img/fondoazul.jpg);
+}
+.parent{
+ border:  3px solid black;
+ height:  auto;
+}
+.element{
+    padding:  10px;
+    margin-top:  0px;
+}
+#galeria{
+	border: 1px solid #EAEAEA;
+	border-radius: 25px;
+	padding-bottom: 0px;
+	background: #0099CC;
+	width: 500px;
+	margin: auto;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 20px;
+	}
+#imgMostrar {
+	margin-left:150px ;
+	border: 1px solid #F2F2F2;
+	border-radius: 25px;
+	width: 200px;
+	height: 250px;
+}
+#galeria_mini {
+	display: table;
+	margin: 0px auto;
+}
+.mini {
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	float: left;
+	cursor: pointer;
+	padding: 1px;
+	margin: 3px 3px;
+	
+}
+#contenido{
+	margin:0px auto;
+	width: 600px;
+	text-align: center;
+}
+#controles{
+	margin-top: 10px;
+	width:580px;
+	eight:30px;
+	margin:0px auto;
+	background-color: #000000;
+	padding: 20px;
+	padding-bottom: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+#img {
+	float: left;
+	margin-left: 2px;
+}
+.progress {
+	float: left;
+	margin-left: 10px;
+}
+#progress {
+	width:400px;
+	eight:5px;
+}
+#video {
+	border-right: solid;
+	border-left: solid;
+	border-width: 1px;
+}
+.vol {
+	background-color: #000000;
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px;
+	height: 35px;
+	width: 70px;
+	overflow: hidden;
+	float: left;
+	cursor: pointer;
+	color: #FFFFFF;
+}
+
+.Estilo1 {font-size: large; color: #00FF00; font-weight: bold;}
+.Estilo3 {color: #0000FF}
+.Estilo4 {font-size: 24px; font-weight: bold; color: #990000;}
+.Estilo6 {font-size: 24px; font-weight: bold; color: #0000FF; }
+.Estilo7 {font-size: 24px; font-weight: bold; color: #FF0000; }
+.Estilo9 {color: #990000}
+.Estilo12 {color: #00FF00}
+.Estilo14 {color: #FF0000; text-align: center;}
+.Estilo15 {color: #0000FF}
+.Estilo16 {color: #990000}
+.Estilo17 {color: #FF0000}
+.Estilo18 {color: #0000FF}
+.Estilo19 {	color: #990000; font-weight: bold;}
+.Estilo20 {color: #990000}
+.Estilo21 {color: #FF0000}
+.Estilo29 {font-size: 24px; font-style: italic;}
+
+@font-face {
+   font-family: Arthur;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../fonts/ufonts.com_arthur.ttf)
+}
+
+.Estilo2 {color: #990000; font-family: Arthur;}
+.Estilo5 {color: #FF0000; font-family: Arthur;}
+.Estilo8 {color: #0000FF; font-family: Arthur;}
+.Estilo10 {font-family:Arthur;}
+.Estilo11 {font-family:Arthur;}
+.Estilo13 {font-family: Arthur;}
+.Estilo24 {color: #FF0000; font-family:Arthur;}
+.Estilo26 {color: #0000FF; font-family:Arthur;}
+.Estilo28 {color: #990000; font-family:Arthur;}
