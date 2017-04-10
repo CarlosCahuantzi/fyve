@@ -215,7 +215,10 @@ div.contenedor:hover img.icon {
 .Estilo8 {color: #0000FF; font-family: Arthur;}
 .Estilo10 {font-family:Arthur;}
 .Estilo11 {font-family:Arthur;}
-.Estilo13 {font-family: Arthur;}
+.Estilo13 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 9px;
+}
 .Estilo24 {color: #FF0000; font-family:Arthur;}
 .Estilo26 {color: #0000FF; font-family:Arthur;}
 .Estilo28 {color: #990000; font-family:Arthur;}
